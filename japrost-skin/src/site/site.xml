@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project
+	xmlns="http://maven.apache.org/DECORATION/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd"
+	name="JaProSt Skin">
+	
+	<version position="bottom" />
+	<publishDate position="right" />
+	
+	<bannerLeft>
+		<name>JaProSt</name>
+		<src>images/JaProSt-logo.gif</src>
+		<href>${japrostProjectUrl}</href>
+	</bannerLeft>
+	<body>
+		<breadcrumbs>
+			<item
+				name="JaProSt"
+				href="../index.html" />
+			<item
+				name="Skin"
+				href="index.html" />
+		</breadcrumbs>
+		<menu name="Skin">
+			<item
+				name="Übersicht"
+				href="index.html" />
+		</menu>
+		<menu name="Projekt Aufbau">
+			<item
+				name="Hintergründe"
+				collapse="true"
+				href="background/index.html">
+				<item
+					name="Über JaProSt Skin"
+					href="background/about.html" />
+				<item
+					name="Änderungen"
+					href="background/changes.html" />
+			</item>
+			<item
+				name="Impressum"
+				href="../imprint.html" />
+		</menu>
+	</body>
+	<skin>
+		<groupId>de.japrost</groupId>
+		<artifactId>${japrost.site.skin.artifact}</artifactId>
+		<version>${japrost.site.skin.version}</version>
+	</skin>
+</project>

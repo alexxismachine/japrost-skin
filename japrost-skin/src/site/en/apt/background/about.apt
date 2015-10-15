@@ -1,0 +1,20 @@
+ -----
+ ${project.name}
+ -----
+ alexxismachine
+ -----
+ 2010-11-06
+ -----
+
+${project.name}
+
+  ${project.description}
+  
+* DistributionManagement
+
+  TODO
+  
+* scm
+  
+  TODO 
+

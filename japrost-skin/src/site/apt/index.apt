@@ -1,0 +1,24 @@
+ -----
+ Übersicht
+ -----
+ alexxismachine
+ -----
+ 2010-12-19
+ -----
+
+JaProSt Skin
+
+  Die maven skin für die JaProSt Projekte.
+
+  Die Skin basiert auf dem original Tempate und beinhaltet nur CSS-Anpassungen.
+  
+* css
+
+  TODO
+  
+  Hauptsächlich für die Darstellung der FrontPage in der Site.
+  
+* images
+
+  TODO
+  

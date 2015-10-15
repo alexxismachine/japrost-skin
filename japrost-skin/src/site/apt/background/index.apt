@@ -1,0 +1,19 @@
+ -----
+ Hintergründe
+ -----
+ alexxismachine
+ -----
+ 2010-11-06
+ -----
+
+Hintergründe
+
+  Diese Seite gibt einen Überblick über die Dokumente der Hintergrundinformationen zum Projekt.
+
+*--*--*
+ <<Dokument>> | <<Beschreibung>> | 
+*--+--+
+ {{{./about.html}Über}} | Das maven setup und die Konfiguration |
+*--+--+
+ {{{./changes.html}Änderungen}} | Einfaches Änderungsprotokoll |
+*--+--+
