@@ -1,52 +1,39 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <project
-	xmlns="http://maven.apache.org/DECORATION/1.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd"
-	name="JaProSt Skin">
-	
-	<version position="bottom" />
-	<publishDate position="right" />
-	
-	<bannerLeft>
-		<name>JaProSt</name>
-		<src>images/JaProSt-logo.gif</src>
-		<href>${japrostProjectUrl}</href>
-	</bannerLeft>
-	<body>
-		<breadcrumbs>
-			<item
-				name="JaProSt"
-				href="../../en/index.html" />
-			<item
-				name="Skin"
-				href="index.html" />
-		</breadcrumbs>
-		<menu name="Skin">
-			<item
-				name="Overview"
-				href="index.html" />
-		</menu>
-		<menu name="Projekt Layout">
-			<item
-				name="Background"
-				collapse="true"
-				href="background/index.html">
-				<item
-					name="About JaProSt Skin"
-					href="background/about.html" />
-				<item
-					name="Changes"
-					href="background/changes.html" />
-			</item>
-			<item
-				name="Imprint"
-				href="../../imprint.html" />
-		</menu>
-	</body>
-	<skin>
-		<groupId>de.japrost</groupId>
-		<artifactId>${japrost.site.skin.artifact}</artifactId>
-		<version>${japrost.site.skin.version}</version>
-	</skin>
+  xmlns="http://maven.apache.org/DECORATION/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd"
+  name="JaProSt Skin">
+  <body>
+    <breadcrumbs>
+      <item
+        name="JaProSt"
+        href="${japrost.project.url}/en/index.html" />
+      <item
+        name="Skin"
+        href="index.html" />
+    </breadcrumbs>
+    
+    <menu name="Skin">
+      <item
+        name="Overview"
+        href="index.html" />
+    </menu>
+    <menu name="Projekt Layout">
+      <item
+        name="Background"
+        collapse="true"
+        href="background/index.html">
+        <item
+          name="About JaProSt Skin"
+          href="background/about.html" />
+        <item
+          name="Changes"
+          href="changes-report.html" />
+      </item>
+      <item
+        name="Imprint"
+        href="../../imprint.html" />
+    </menu>
+  </body>
 </project>

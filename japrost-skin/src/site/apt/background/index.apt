@@ -15,5 +15,5 @@ Hintergründe
 *--+--+
  {{{./about.html}Über}} | Das maven setup und die Konfiguration |
 *--+--+
- {{{./changes.html}Änderungen}} | Einfaches Änderungsprotokoll |
+ {{{../changes-report.html}Änderungen}} | Einfaches Änderungsprotokoll |
 *--+--+

@@ -15,5 +15,5 @@ Background
 *--+--+
  {{{./about.html}About}} | Information on the maven setup and configuration |
 *--+--+
- {{{./changes.html}Changes}} | Simple changelog |
+ {{{../changes-report.html}Changes}} | Simple changelog |
 *--+--+
