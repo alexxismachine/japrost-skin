@@ -7,7 +7,7 @@
   <parent>
     <groupId>de.japrost</groupId>
     <artifactId>japrost-parent</artifactId>
-    <version>5-SNAPSHOT</version>
+    <version>5.2-SNAPSHOT</version>
   </parent>
 
   <artifactId>japrost-skin</artifactId>
@@ -15,22 +15,18 @@
 
   <name>JaProSt Skin</name>
   <description>The Skin for JaProSt project sites</description>
-  <url>${japrost.project.url}/${japrost.site.project.path}/</url>
-
-  <properties>
-    <japrost.site.project.path>skin</japrost.site.project.path>
-  </properties>
+  <url>http://www.japrost.de/skin/</url>
 
   <!-- this is where all the stuff goes to -->
   <distributionManagement>
     <site>
-      <id>${japrost.distribution.site.id}</id>
+      <id>japrostSiteId</id>
       <name>JaProSt-Site</name>
-      <url>${japrost.distribution.site.url}/${japrost.site.project.path}/</url>
+      <url>${japrost.distribution.site.url}/skin/</url>
     </site>
   </distributionManagement>
 
   <scm>
-    <developerConnection>scm:${japrost.scm.base}/${project.artifactId}</developerConnection>
+    <developerConnection>scm:scm:git:git://bitbucket.org/daprost/${project.artifactId}</developerConnection>
   </scm>
 </project>
