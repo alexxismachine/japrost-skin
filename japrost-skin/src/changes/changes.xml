@@ -5,7 +5,14 @@
   <body>
     <release
       version="1"
-      description="pom and reports">
+      description="less maven properties"
+      date="2017-05-10">
+      <action type="update">
+        Rework pom to use less maven properties
+      </action>
+      <action type="update">
+        Remove eclipse artifacts from scm 
+      </action>
       <action type="add">
         Add changes report.
       </action>
